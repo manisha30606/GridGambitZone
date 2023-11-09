@@ -273,7 +273,7 @@ padding-top: 3rem;
      padding-top: 2rem;
 }
  .navdata li{
-    font-size: 1rem;
+    font-size: 1.6rem;
  }
  .head {
   font-size: 1rem;
@@ -283,14 +283,14 @@ padding-top: 3rem;
 
 }
 .gameturn h2 span {
+  font-size: 1.5rem;
+}
+/* .gamebtn .btn{
   font-size: 1rem;
-}
-.gamebtn .btn{
-  font-size: .7rem;
-  padding: .5rem .8rem ;
+  padding: 1.5rem 1rem ;
   margin: .5rem .1rem;
-}
-}
+}*/
+} 
 
 @media (max-width:469px) {
   .contain {
@@ -303,8 +303,8 @@ padding-top: 3rem;
   }
   .container {
   
-    grid-template-rows: repeat(3, 15vw);
-    grid-template-columns: repeat(3, 15vw);
+    grid-template-rows: repeat(3, 20vw);
+    grid-template-columns: repeat(3, 20vw);
   
     
   }
@@ -315,13 +315,18 @@ padding-top: 3rem;
     width: 90%;
   }
 
-
-  .gamebtn .btn{
+  .logo p {
+    margin: 2rem 0;
+  }
+   .logo h1 {
+    padding: 0.5rem 0;
+   }
+  /* .gamebtn .btn{
 margin: .2rem 0;
 font-size: .6rem;
 padding: .5rem ;
    
-}
+} */
 .gamegif{
   margin-top: .5rem;
   text-align: center;
@@ -333,6 +338,9 @@ padding: .5rem ;
 }
 .game{
   width: 99%;
+}
+.tic{
+  margin: 1rem 0;
 }
 }
 
@@ -361,7 +369,7 @@ padding: .5rem ;
     font-size: 4rem;
   }
  .navbar li{
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     padding: .7rem .5rem;
  }
  .btns{
